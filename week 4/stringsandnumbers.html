@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="outputText"></p>
+
+
+    <script>
+        let num1 = 'asdasda'
+        let num2 = '10'
+
+        if(isNaN(num1) || isNaN(num2)){
+            document.getElementById('outputText').innerHTML = 'not a number'
+        } else{
+            document.getElementById('outputText').innerHTML = parseInt(num1) + parseInt(num2)
+        }
+
+    </script>
+</body>
+</html>
