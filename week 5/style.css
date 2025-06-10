@@ -1,0 +1,33 @@
+.digitBtn{
+    background-color: orange;
+}
+
+.operatorBtn{
+    background-color: green;
+}
+
+.ACBtn{
+    background-color: red;
+}
+
+#inputBox{
+    width: 100%;
+    font-size: 5em;
+    text-align: right;
+    border: 0;
+    padding: 0;
+}
+
+table{
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 16.02vh;
+}
+
+td{
+    width: 25vw;
+}
